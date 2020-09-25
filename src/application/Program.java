@@ -12,6 +12,9 @@ public class Program {
 		Client c4 = new Client("Maria", "maria2@gmail.com");
 		Client c5 = new Client("Maria", "maria@gmail.com");
 		
+		String s1 = "Test";
+		String s2 = "Test";
+		
 		System.out.println("C1 = " + c1.getName() + " = " + c1.hashCode());
 		System.out.println("C2 = " + c2.getName() + " = " + c2.hashCode());
 		System.out.println("C3 = " + c3.getName() + " = " + c3.hashCode());
@@ -24,6 +27,8 @@ public class Program {
 		System.out.println("C1: " + c1.getName() + " equals C5: " + c5.getName() + " = " + c1.equals(c5));
 		System.out.print("C1 == C5 = ");
 		System.out.println(c1 == c5); //-> compara referencias de memoria => result = false
+		System.out.print("S1 == S2 = ");
+		System.out.println(s1 == s2);
 	}
 
 }
