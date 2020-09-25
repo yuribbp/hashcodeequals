@@ -22,7 +22,8 @@ public class Program {
 		System.out.println("C1: " + c1.getName() + " equals C3: " + c3.getName() + " = " + c1.equals(c3));
 		System.out.println("C1: " + c1.getName() + " equals C4: " + c4.getName() + " = " + c1.equals(c4));
 		System.out.println("C1: " + c1.getName() + " equals C5: " + c5.getName() + " = " + c1.equals(c5));
-		
+		System.out.print("C1 == C5 = ");
+		System.out.println(c1 == c5); //-> compara referencias de memoria => result = false
 	}
 
 }
