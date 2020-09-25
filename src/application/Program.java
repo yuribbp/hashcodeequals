@@ -12,8 +12,8 @@ public class Program {
 		Client c4 = new Client("Maria", "maria2@gmail.com");
 		Client c5 = new Client("Maria", "maria@gmail.com");
 		
-		String s1 = "Test";
-		String s2 = "Test";
+		String s1 = new String("Test");
+		String s2 = new String("Test");
 		
 		System.out.println("C1 = " + c1.getName() + " = " + c1.hashCode());
 		System.out.println("C2 = " + c2.getName() + " = " + c2.hashCode());
